@@ -2,10 +2,10 @@
   "name": "blogweb",
   "version": "1.0.0",
   "description": "",
-  "main": "APP.JS",
+  "main": "App.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon app"
+    "start": "node App.js"
+   
   },
   "author": "ademolawaliyu1@gmail.com",
   "license": "ISC",
