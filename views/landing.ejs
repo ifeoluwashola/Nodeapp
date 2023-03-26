@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogdev</title>
+    <link rel="stylesheet"  href="style.css">
+</head>
+
+<body class="light-theme " bgcolor="white">
+
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#">
+                    <img src="logo-light.svg" alt="Devblog's logo" width="150" class="Logo-light">
+                    <img src="logo-dark.svg" alt="Devblog's logo" width="150" class="Logo-dark">
+
+                </a>
+
+                <div class="btn-group">
+
+                    <button class="theme-btn theme-btn-mobile light">
+                        <ion-icon name="moon" class="moon"></ion-icon>
+                        <ion-icon name="sunny" class="sun"></ion-icon>
+                    </button>
+
+                    <button class="nav-menu-btn">
+                        <ion-icon name="menu-outline"></ion-icon>
+
+                    </button>
+                </div>
+
+                <div class="flex-wrapper">
+                    <ul class="desktop-nav">
+                        <li>
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav-link">About me</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+
+                    <button class="theme-btn theme-btn-desktop light">
+                        <ion-icon name="moon" class="moon"></ion-icon>
+                        <ion-icon name="sunny" class="sun"></ion-icon>
+
+                    </button>
+                </div>
+                <div class="mobile-nav">
+                    <button class="nav-close-btn">
+                        <ion-icon name="close-outline"></ion-icon>
+                    </button>
+
+                    <div class="wrapper">
+                        <p class="h3 nav-title">Main Menu</p>
+                        <ul>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">About me</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="wrapper">
+                        <p class="h3 nav-title">Topic</p>
+                        <ul>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Database</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Accessibility</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Web Performance</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+
+
+
+
+    <main>
+        <div class="hero">
+            <div class="container">
+                <div class="left">
+                    <h1 class="h1">
+                        Hi, I'm <b>Katrina Walker</b>
+                        <br>Web Developer
+                    </h1>
+
+                    <p class="hj">
+                        specialized in <abbr title="Accessiility">ally</abbr>
+                        and Core web Vitals
+                    </p>
+
+                    <div class="btn-group">
+                        <a href="#" class="btn btn-primary">Contact Me</a>
+                        <a href="#" class="btn btn-secondary">About Me</a>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <div class="pattern-bg"></div>
+                    <div class="img-box">
+                        <img src="hero.png" alt="julia walker"  class="hero-img">
+                        <div class="shape shape-1"></div>
+                        <div class="shape shape-2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="main">
+            <div class="container">
+
+
+
+                <div class="blog">
+                    <div class="h2">Latest Blog Post</div>
+                    <div class="blog-card-group">
+
+
+                        <div class="blog-card">
+                            <div class="blog-card-banner">
+                                <img src="blog-1.png" alt="building microservices with Dropwizard, Mongoos & Docker"
+                                width="256" class="blog-banner-img">
+                            </div>
+                            <div class="blog-content-wrapper">
+                                <button class="blog-topic text-tiny">Database</button>
+                                <h3>
+                                    <a href="#" class="h3">Building microservices with Dropwizard, Mongoos & Docker</a>
+
+                                </h3>
+
+                                <p class="blog-text">
+                                    This NoSQL, database oriented to documents (by documents like JSON)
+                                    combines some of the features from relational
+                                    databases, easy to use and the multi-platform is the best option for tolerance,
+                                    load balancing, map reduce, etc
+                                </p>
+
+                                <div class="wrapper-flex">
+                                    <div class="profile-wrapper">
+                                        <img src="author.png" alt="Julia walker" width="50">
+                                    </div>
+                                </div>
+
+                                <div class="wrapper">
+                                    <a href="#" class="h4">Katrina Walker</a>
+
+
+                                    <p class="text-">
+                                        <time datetime="2022-01-17">jan 17,2023</time>
+                                        <span class="seperator"></span>
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <time datetime="PT3M">3 min</time>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blog-card">
+                            <div class="blog-card-banner">
+                                <img src="blog-2.png" alt="building microservices with Dropwizard, Mongoos & Docker"
+                                width="256" class="blog-banner-img">
+                            </div>
+                            <div class="blog-content-wrapper">
+                                <button class="blog-topic text-tiny">Web Performance</button>
+                                <h3>
+                                    <a href="#" class="h3">Fast web page loading on a $20 feature phone</a>
+
+                                </h3>
+
+                                <p class="blog-text">
+                                    feature phone are affordable (under $20-25), low-end devices enabling 100s of 
+                                    millons of users in developing countries to leverage the web. Think of theme
+                                    as a light version of a smart phone
+                  
+                                </p>
+
+                                <div class="wrapper-flex">
+                                    <div class="profile-wrapper">
+                                        <img src="author.png" alt="Julia walker" width="50">
+                                    </div>
+                                </div>
+
+                                <div class="wrapper">
+                                    <a href="#" class="h4">Katrina Walker</a>
+
+
+                                    <p class="text-">
+                                        <time datetime="2021-12-10">Dec 25 ,2022</time>
+                                        <span class="seperator"></span>
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <time datetime="PT3M">2 min</time>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blog-card">
+                            <div class="blog-card-banner">
+                                <img src="blog-3.png" alt="building microservices with Dropwizard, Mongoos & Docker"
+                                width="256" class="blog-banner-img">
+                            </div>
+                            <div class="blog-content-wrapper">
+                                <button class="blog-topic text-tiny">Accessibility</button>
+                                <h3>
+                                    <a href="#" class="h3">Accessibility Tips for Web Developers</a>
+
+                                </h3>
+
+                                <p class="blog-text">
+                                   It's awesome to build sites that are inclusive and accessible to averyone. There are at Latest
+                                   six key areas of disability we can optimize for: visual, hearing, mobility, cognition, speech
+                                   and neural. Many tools and resources can help here, even if you are totally new to web Accessibility
+                                </p>
+
+                                <div class="wrapper-flex">
+                                    <div class="profile-wrapper">
+                                        <img src="author.png" alt="Julia walker" width="50">
+                                    </div>
+                                </div>
+
+                                <div class="wrapper">
+                                    <a href="#" class="h4">Katrina Walker</a>
+
+
+                                    <p class="text-">
+                                        <time datetime="2021-11-28">Dec 29,2022</time>
+                                        <span class="seperator"></span>
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <time datetime="PT3M">4 min</time>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="blog-card">
+                            <div class="blog-card-banner">
+                                <img src="blog-4.png" alt="Dynamically securing Databases using Mashicorp Vault"
+                                width="256" class="blog-banner-img">
+                            </div>
+                            <div class="blog-content-wrapper">
+                                <button class="blog-topic text-tiny">Database</button>
+                                <h3>
+                                    <a href="#" class="h3">Dynamically Securing Databases using Hashicorp Vault</a>
+
+                                </h3>
+
+                                <p class="blog-text">
+                                  Nowadays, it's hard to profoundly talk about security in the IT industry, since it has to be considered
+                                  on so many different levels:from securing code chunks, securing containers, up to securing complex
+                                  infrastructurez and defining strong authorization and authentication policies  across the engerprise
+                                </p>
+
+                                <div class="wrapper-flex">
+                                    <div class="profile-wrapper">
+                                        <img src="author.png" alt="Julia walker" width="50">
+                                    </div>
+                                </div>
+
+                                <div class="wrapper">
+                                    <a href="#" class="h4">Katrina Walker</a>
+
+
+                                    <p class="text-">
+                                        <time datetime="2022-11-20">Nov 20,2022</time>
+                                        <span class="seperator"></span>
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <time datetime="PT3M">8 min</time>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        
+                        <div class="blog-card">
+                            <div class="blog-card-banner">
+                                <img src="blog-5.png" alt="Adaptive Loading - Improving web Performance on low-end devices"
+                                width="256" class="blog-banner-img">
+                            </div>
+                            <div class="blog-content-wrapper">
+                                <button class="blog-topic text-tiny">Web Performance</button>
+                                <h3>
+                                    <a href="#" class="h3">Adaptive Loading - Improving Web Performance on low-end devices</a>
+
+                                </h3>
+
+                                <p class="blog-text">
+                                 Adaptive Loading: Do not just respond based on screen size, adapt based on actual devices hardware.
+                                 Any user can have a slow experience. In a world with widely varylog device capabilities, a 'one-size'
+                                 fits all experience may not always work. Sites that delight users on high-end devices can be unusable on low-end ones,
+                                 particularly on median mobile and desktop hardwares and in emerging markets.
+                                </p>
+
+                                <div class="wrapper-flex">
+                                    <div class="profile-wrapper">
+                                        <img src="author.png" alt="Julia walker" width="50">
+                                    </div>
+                                </div>
+
+                                <div class="wrapper">
+                                    <a href="#" class="h4">Katrina Walker</a>
+
+
+                                    <p class="text-">
+                                        <time datetime="2022-11-10">Nov 10,2022</time>
+                                        <span class="seperator"></span>
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <time datetime="PT3M">8 min</time>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blog-card">
+                            <div class="blog-card-banner">
+                                <img src="blog-6.png" alt="Don't Develop just for yourself - A Developer's Checklist to Accessibility"
+                                width="256" class="blog-banner-img">
+                            </div>
+                            <div class="blog-content-wrapper">
+                                <button class="blog-topic text-tiny">Accessibility</button>
+                                <h3>
+                                    <a href="#" class="h3">Don't Develop just for yourself - A Developer's Checklist to Accessibility</a>
+
+                                </h3>
+
+                                <p class="blog-text">
+                                    We, as Developers, tend to develop sites unconciously for people like ourselves, if we dont actively pay attention.
+                                    The sites are often only accessible for certain types of people: sighted fine-users who have good motor skills
+                                    and are good at using computers
+                               
+                                </p>
+
+                                <div class="wrapper-flex">
+                                    <div class="profile-wrapper">
+                                        <img src="author.png" alt="Julia walker" width="50">
+                                    </div>
+                                </div>
+
+                                <div class="wrapper">
+                                    <a href="#" class="h4">Katrina Walker</a>
+
+
+                                    <p class="text-">
+                                        <time datetime="2021-10-25">oct 25,2022</time>
+                                        <span class="seperator"></span>
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <time datetime="PT3M">8 min</time>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blog-card">
+                            <div class="blog-card-banner">
+                                <img src="blog-7.png" alt="Building a Restful CRUD API with Node js, Espress, and mongoose"
+                                width="256" class="blog-banner-img">
+                            </div>
+                            <div class="blog-content-wrapper">
+                                <button class="blog-topic text-tiny">Accessibility</button>
+                                <h3>
+                                    <a href="#" class="h3">Building a Restful CRUD API with Node js, Espress, and mongoose</a>
+
+                                </h3>
+
+                                <p class="blog-text">
+                                    Application programming interface is an abbreviation for API. An API is a software programming interface that enables two apps to work with one another
+                                    In other words, an API is a messager that sends your request to the provider and then returns it back to you
+                                </p>
+
+                                <div class="wrapper-flex">
+                                    <div class="profile-wrapper">
+                                        <img src="author.png" alt="Julia walker" width="50">
+                                    </div>
+                                </div>
+
+                                <div class="wrapper">
+                                    <a href="#" class="h4">Katrina Walker</a>
+
+
+                                    <p class="text-">
+                                        <time datetime="2021-10-15">oct 15,2022</time>
+                                        <span class="seperator"></span>
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <time datetime="PT3M">8 min</time>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="blog-card">
+                            <div class="blog-card-banner">
+                                <img src="blog-8.png" alt="Monitoring performance with the pagespeed Insight API"
+                                width="256" class="blog-banner-img">
+                            </div>
+                            <div class="blog-content-wrapper">
+                                <button class="blog-topic text-tiny">web Performance</button>
+                                <h3>
+                                    <a href="#" class="h3">Monitoring performance with the pagespeed Insight API</a>
+
+                                </h3>
+
+                                <p class="blog-text">
+                                   The pagespeed Insight API provides free access to performance Monitoringfor web pages and returns
+                                   data with suggestions for how to improve. The  VS API includes lab data from lighthouse and real-world 
+                                   data  from the chrome user
+                                </p>
+
+                                <div class="wrapper-flex">
+                                    <div class="profile-wrapper">
+                                        <img src="author.png" alt="Julia walker" width="50">
+                                    </div>
+                                </div>
+
+                                <div class="wrapper">
+                                    <a href="#" class="h4">Katrina Walker</a>
+
+
+                                    <p class="text-">
+                                        <time datetime="2021-10-3">oct 3,2022</time>
+                                        <span class="seperator"></span>
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <time datetime="PT3M">28 min</time>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blog-card">
+                            <div class="blog-card-banner">
+                                <img src="blog-9.png" alt="Don't Develop just for yourself- A Developer's Checklist is Accessibility"
+                                width="256" class="blog-banner-img">
+                            </div>
+                            <div class="blog-content-wrapper">
+                                <button class="blog-topic text-tiny">web Performance</button>
+                                <h3>
+                                    <a href="#" class="h3">Don't Develop just for yourself- A Developer's Checklist is Accessibility</a>
+
+                                </h3>
+
+                                <p class="blog-text">
+                                    The quality of the tools you se defines the speed with which you can diagnoise and resolve problems.
+                                    Each year the landscape changes dramatically in web technologies, and of late the tooling for Accessibility is 
+                                    no exception
+                                </p>
+
+                                <div class="wrapper-flex">
+                                    <div class="profile-wrapper">
+                                        <img src="author.png" alt="Julia walker" width="50">
+                                    </div>
+                                </div>
+
+                                <div class="wrapper">
+                                    <a href="#" class="h4">Katrina Walker</a>
+
+
+                                    <p class="text-">
+                                        <time datetime="2021-09-13">sep 3,2022</time>
+                                        <span class="seperator"></span>
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <time datetime="PT3M">38 min</time>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="blog-card">
+                            <div class="blog-card-banner">
+                                <img src="blog-10.png" alt="How to connect a React frontend with a NodeJS/Express backend"
+                                width="256" class="blog-banner-img">
+                            </div>
+                            <div class="blog-content-wrapper">
+                                <button class="blog-topic text-tiny">Database</button>
+                                <h3>
+                                    <a href="#" class="h3">How to connect a React frontend with a NodeJS/Express backend</a>
+
+                                </h3>
+
+                                <p class="blog-text">
+                                   The MERN(MongoDB, Express, React, NodeJS) stack is very popular for making full stack applications,
+                                   utilizing javascript for both the backend and frontend as well as a document-oriented or non relational datatbase
+                                   (MongoDB),meaning that it is structured like JSON rather than a large excel sheet like SQL databases are.
+                                </p>
+
+                                <div class="wrapper-flex">
+                                    <div class="profile-wrapper">
+                                        <img src="author.png" alt="Julia walker" width="50">
+                                    </div>
+                                </div>
+
+                                <div class="wrapper">
+                                    <a href="#" class="h4">Katrina Walker</a>
+
+
+                                    <p class="text-">
+                                        <time datetime="2021-10-3">Aug 16,2022</time>
+                                        <span class="seperator"></span>
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <time datetime="PT3M">18 min</time>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <button class="btn-load-more">Load More</button>
+                </div>
+
+
+
+                <div class="aside">
+                    <div class="topics">
+                        <h2 class="h2">topics</h2>
+                        <a href="#" class="topic-btn">
+                            <div class="icon-btn">
+                                <icon-icon name='server-outline'></icon-icon>
+                            </div>
+                            <p>Database</p>
+                        </a>
+
+                        <a href="#" class="topic-btn">
+                            <div class="icon-btn">
+                                <icon-icon name='accessibility-outline'></icon-icon>
+                            </div>
+                            <p>Accessibility</p>
+                        </a>
+
+                        
+                        <a href="#" class="topic-btn">
+                            <div class="icon-btn">
+                                <icon-icon name='rocket-outline'></icon-icon>
+                            </div>
+                            <p>web performance</p>
+                        </a>
+                    </div>
+                    <div class="tags">
+                        <h2 class="h2">Tags</h2>
+
+                        <div class="wrapper">
+                            <button class="hashtag">mongodb</button>
+                            <button class="hashtag">NodeJS</button>
+                            <button class="hashtag">Bally</button>
+                            <button class="hashtag">mobility</button>
+                            <button class="hashtag">inclusion</button>
+                            <button class="hashtag">webperf</button>
+                            <button class="hashtag">optimize</button>
+                            <button class="hashtag">performance</button>
+                        </div>
+                    </div>
+
+
+                    <div class="contact">
+                        <h2 class="h2">Let's talk</h2>
+
+
+                        <div class="wrapper">
+
+                            <p>
+                                Do you want to learn more about how I can help your company overcome problems?
+                                let us have a conversation
+                            </p>
+
+                            <ul class="social-link">
+                                <li>
+                                    <a href="#" class="icon-box discord">
+                                        <ion-icon name="logo-discord"></ion-icon>
+                                    </a>
+
+                                </li>
+
+                                <li>
+                                    <a href="#" class="icon-box twitter">
+                                        <ion-icon name="logo-twitter"></ion-icon>
+                                    </a>
+
+                                </li>
+
+                                <li>
+                                    <a href="#" class="icon-box facebook">
+                                        <ion-icon name="logo-facebook"></ion-icon>
+                                    </a>
+
+                                </li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+
+                    <div class="newsletter">
+                        <h2 class="h2">newsletter</h2>
+
+                        <div class="wrapper">
+
+                            <p>
+                                subscribe to our newsletter tpo be among the first to keep up with the latest updates
+
+                            </p>
+
+                            <form action="#">
+                                <input type="email" name="email" placeholder="Email Address" required>
+
+                                <button type="subvmit" class="btn btn-primary">subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="container">
+            <div class="wrapper">
+                <a href="#" class="footer-logo">
+                    <img src="logo-light.svg" alt="DeveBlog's Logo" width="150" class="logo-light">
+
+                    <img src="logo-dark.svg" alt="DeveBlog's Logo" width="150" class="logo-dark">
+                </a>
+
+                <p class="footer-text">
+                    Learn about web Accessibility,web performance, and Database management.
+                </p>
+            </div>
+
+            <div class="wrapper">
+                <p class="footer-title">Quick Link</p>
+
+                <ul>
+                    <li>
+                        <a href="#" class="footer-link">Advertise with us</a>
+                    </li>
+
+
+                    <li>
+                        <a href="#" class="footer-link">About us</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="wrapper">
+                <p class="footer-title">Legal stuff</p>
+
+                <ul>
+                    <li>
+                        <a href="#" class="footer-link">Privacy Notice</a>
+                    </li>
+
+
+                    <li>
+                        <a href="#" class="footer-link">Cookie Policy</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Terms of Use</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="copyright">
+            copy; copyright 2022 <a href="#">HabBlog</a>
+        </p>
+    </footer>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+</body>
+<script>
+    'use strict';
+
+// navbar variables
+const nav = document.querySelector('.mobile-nav');
+const navMenuBtn = document.querySelector('.nav-menu-btn');
+const navCloseBtn = document.querySelector('.nav-close-btn');
+
+
+// navToggle function
+const navToggleFunc = function () { nav.classList.toggle('active'); }
+
+navMenuBtn.addEventListener('click', navToggleFunc);
+navCloseBtn.addEventListener('click', navToggleFunc);
+
+
+
+// theme toggle variables
+const themeBtn = document.querySelectorAll('.theme-btn');
+
+
+for (let i = 0; i < themeBtn.length; i++) {
+
+  themeBtn[i].addEventListener('click', function () {
+
+    // toggle `light-theme` & `dark-theme` class from `body`
+    // when clicked `theme-btn`
+    document.body.classList.toggle('light-theme');
+    document.body.classList.toggle('dark-theme');
+
+    for (let i = 0; i < themeBtn.length; i++) {
+
+      // When the `theme-btn` is clicked,
+      // it toggles classes between `light` & `dark` for all `theme-btn`.
+      themeBtn[i].classList.toggle('light');
+      themeBtn[i].classList.toggle('dark');
+
+    }
+
+  })
+
+}
+</script>
+</html>
