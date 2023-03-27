@@ -1,0 +1,28 @@
+# PULL BASE IMAGE
+FROM node:16.11.0-alpine3.14
+
+#SET ENVIRONMENT VARIABLE
+ENV PORT=3000
+
+# SET WORKDIR
+WORKDIR /app
+
+#COPY PACKEGE.JSON
+COPY package*.json ./
+
+#INSTALL DEPENDENCIES
+RUN npm install
+
+#COPY THE REST OF THE PROJECT
+COPY . .
+
+#EXPOSING PORT
+EXPOSE ${PORT}
+
+# ADD LABELS FOR METADATA
+LABEL maintainer="Ifeoluwa dloveade@gmail.com"
+LABEL version="1.0.0"
+
+#RUN NPM AND START THE PROJECT
+CMD ["node", "app.js"]
+

@@ -9,9 +9,9 @@ const bodyparser = require("body-parser")
 const PORT = process.env.PORT || 1000;
 app.use(bodyparser.urlencoded({extended: false}));
 app.use(express.static("public"));
-app.set("veiw engine", "ejs");
+app.set("view engine", "ejs");
 
-app.get('/landing', (req, res, next) => {
+app.get('/', (req, res, next) => {
     res.render("landing.ejs")
 });
 
